@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Atlantic Graphical Tropical Weather Outlook" width="500" height="450"/>
+<ModulePrefs title="Graphical Tropical Weather Outlook" />
 <UserPref name="Basin"
 display_name="Select Basin"
 datatype="enum"
@@ -9,12 +9,8 @@ default_value="atl">
 <EnumValue value="epac" display_value="East Pacific"/>
 </UserPref>
 <Content type="html"><![CDATA[
-
-<script type="text/javascript">
-var prefs = new _IG_Prefs();
-var strBasin = prefs.getString("Basin");
-</script><a href="http://www.nhc.noaa.gov/gtwo_atl.shtml">
-<img src="http://www.nhc.noaa.gov/gtwo/two___UP_Basin__.gif" border="0" />
+<a href="http://www.nhc.noaa.gov/gtwo_atl.shtml">
+<img src="http://www.nhc.noaa.gov/gtwo/two___UP_Basin__.gif" border="0" width="320" />
 </a>
 ]]></Content>
 </Module>
