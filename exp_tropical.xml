@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Atlantic Graphical Tropical Weather Outlook" width="500" height="450"/>
+<Content type="html"><![CDATA[
+<a href="http://www.nhc.noaa.gov/gtwo_atl.shtml">
+<img src="http://www.nhc.noaa.gov/gtwo/two_atl.gif" border="0"  />
+</a>
+]]></Content>
+</Module>
